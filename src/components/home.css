@@ -1,0 +1,10 @@
+.homeDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.McsBanner {
+  width: 100%;
+}
