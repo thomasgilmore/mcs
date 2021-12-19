@@ -4,7 +4,7 @@ import McsBanner from '../MCS/Website Collateral/MCS_Banner (1).png'
 
 export default function Home() {
   return (
-    <div className='homeDiv'>
+    <div className='homeDiv' id="home">
       <div className='homeDivText'>
         <h1>Welcome to Moody Creature Society</h1>
       </div>
