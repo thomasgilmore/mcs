@@ -9,7 +9,7 @@ import McsTitle from '../MCS/*LOGO/MCS_Logo_B.jpg';
 export default function NavBar() {
   return (
     <div>
-    <Navbar collapseOnSelect expand="lg" bg="">
+    <Navbar collapseOnSelect expand="lg" sticky="top">
     <Container>
     <Navbar.Brand href="#home">
       <img src={Logo} className='navLogo' alt="Logo" />
@@ -18,7 +18,7 @@ export default function NavBar() {
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
       <Nav>
-        <Nav.Link href="#mcs">MCS</Nav.Link>
+        <Nav.Link href="#home">MCS</Nav.Link>
         <Nav.Link href="#memes">Our Story</Nav.Link>
         <Nav.Link href="#roadmap">Roadmap</Nav.Link>
         <Nav.Link href="#ourTeam">Our Team</Nav.Link>
