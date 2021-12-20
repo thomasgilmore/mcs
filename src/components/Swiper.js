@@ -23,7 +23,7 @@ SwiperCore.use([Autoplay,Pagination,Navigation]);
 export default function SwiperJS () {
   return (
     <div>
-    <Swiper allowTouchMove={false} slidesPerView={4} spaceBetween={30} centeredSlides={false} autoplay={{
+    <Swiper loop={true} allowTouchMove={false} slidesPerView={4} spaceBetween={10} centeredSlides={false} autoplay={{
       "delay": 1000,
       "disableOnInteraction": false
     }} showsPagination={false} navigation={false} className="mySwiper">
