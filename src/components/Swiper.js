@@ -1,4 +1,5 @@
 import React from 'react'
+import './swiperjs.css'
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import bucketpolo from '../MCS/*Characters/Website_Banner/mcs_character_bucketpolo.png'
