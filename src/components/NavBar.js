@@ -9,7 +9,7 @@ import McsTitle from '../MCS/*LOGO/MCS_Logo_B.jpg';
 export default function NavBar() {
   return (
     <div>
-    <Navbar collapseOnSelect expand="lg" sticky="top">
+    <Navbar collapseOnSelect bg="white" variant="white" expand="lg" fixed="top">
     <Container>
     <Navbar.Brand href="#home">
       <img src={Logo} className='navLogo' alt="Logo" />
