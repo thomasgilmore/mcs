@@ -20,7 +20,7 @@ export default function NavBar() {
       <Nav>
         <Nav.Link className='navItem' href="#home">MCS</Nav.Link>
         <div className='line'></div>
-        <Nav.Link className='navItem' href="#memes">Our Story</Nav.Link>
+        <Nav.Link className='navItem' href="#ourStory">Our Story</Nav.Link>
         <div className='line'></div>
         <Nav.Link className='navItem' href="#roadmap">Roadmap</Nav.Link>
         <div className='line'></div>
