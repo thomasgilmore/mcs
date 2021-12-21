@@ -19,9 +19,13 @@ export default function NavBar() {
     <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
       <Nav>
         <Nav.Link className='navItem' href="#home">MCS</Nav.Link>
+        <div className='line'></div>
         <Nav.Link className='navItem' href="#memes">Our Story</Nav.Link>
+        <div className='line'></div>
         <Nav.Link className='navItem' href="#roadmap">Roadmap</Nav.Link>
+        <div className='line'></div>
         <Nav.Link className='navItem' href="#ourTeam">Our Team</Nav.Link>
+        <div className='line'></div>
         <Nav.Link className='navItem' href="#contact">Contact</Nav.Link>
       </Nav>
     </Navbar.Collapse>

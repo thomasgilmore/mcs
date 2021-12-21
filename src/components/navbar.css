@@ -14,3 +14,9 @@
 .navItem:hover {
   color: #000;
 }
+
+.line {
+  border-left: 2.5px solid #000;
+  height: 15px;
+  margin: auto 5px;
+}
