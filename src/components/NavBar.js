@@ -18,11 +18,11 @@ export default function NavBar() {
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
       <Nav>
-        <Nav.Link href="#home">MCS</Nav.Link>
-        <Nav.Link href="#memes">Our Story</Nav.Link>
-        <Nav.Link href="#roadmap">Roadmap</Nav.Link>
-        <Nav.Link href="#ourTeam">Our Team</Nav.Link>
-        <Nav.Link href="#contact">Contact</Nav.Link>
+        <Nav.Link className='navItem' href="#home">MCS</Nav.Link>
+        <Nav.Link className='navItem' href="#memes">Our Story</Nav.Link>
+        <Nav.Link className='navItem' href="#roadmap">Roadmap</Nav.Link>
+        <Nav.Link className='navItem' href="#ourTeam">Our Team</Nav.Link>
+        <Nav.Link className='navItem' href="#contact">Contact</Nav.Link>
       </Nav>
     </Navbar.Collapse>
     </Container>

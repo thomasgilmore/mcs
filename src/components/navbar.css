@@ -6,3 +6,11 @@
   width: 150px;
   margin: 15px;
 }
+
+.navItem {
+  color: #000;
+}
+
+.navItem:hover {
+  color: #000;
+}
