@@ -1,0 +1,34 @@
+.footerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.footerDiv > div {
+  margin: 10px;
+}
+
+.footerImg,
+.footerText {
+  height: 68px; 
+  margin: 0 5px;
+}
+
+.linksFooterDiv {
+  display: flex;
+}
+
+.linksFooterDiv > ul {
+  text-align: left;
+  text-decoration: none;
+}
+
+.footerLink {
+  text-decoration: none;
+  color: #000;
+}
+
+.footerLink:hover {
+  color: #000;
+}
