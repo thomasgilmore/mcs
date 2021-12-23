@@ -24,12 +24,6 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div>
-        <h4>Social</h4>
-      </div>
-      <div>
-        <h4>Copyright</h4>
-      </div>
     </div>
   )
 }
