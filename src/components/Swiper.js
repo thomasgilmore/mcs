@@ -36,7 +36,15 @@ SwiperCore.use([Autoplay,Pagination,Navigation]);
 export default function SwiperJS () {
   return (
     <div>
-    <Swiper loop={true} allowTouchMove={false} breakpoints={{520: {"slidesPerView": 2}, 780: {"slidesPerView": 3}, 1040: {"slidesPerView": 4}, 1300: {"slidesPerView": 5}, 1560: {"slidesPerView": 6}, 1820: {"slidesPerView": 7}, 2080: {"slidesPerView": 8}}} centeredSlides={false} speed={3000} autoplay={{
+    <Swiper loop={true} allowTouchMove={false} breakpoints={{
+      520: {"slidesPerView": 2}, 
+      780: {"slidesPerView": 3}, 
+      1040: {"slidesPerView": 4}, 
+      1300: {"slidesPerView": 5}, 
+      1560: {"slidesPerView": 6}, 
+      1820: {"slidesPerView": 7}, 
+      2080: {"slidesPerView": 8}
+    }} centeredSlides={false} speed={3000} autoplay={{
       "delay": 0,
       "disableOnInteraction": false
     }} navigation={false} className="mySwiper">
@@ -49,7 +57,15 @@ export default function SwiperJS () {
       <SwiperSlide><img src={mcs_character_7} className='floaty' alt="Floaty" /></SwiperSlide>
       <SwiperSlide><img src={mcs_character_8} className='flower' alt="Flower" /></SwiperSlide>
       </Swiper>
-      <Swiper loop={true} allowTouchMove={false} breakpoints={{520: {"slidesPerView": 2}, 780: {"slidesPerView": 3}, 1040: {"slidesPerView": 4}, 1300: {"slidesPerView": 5}, 1560: {"slidesPerView": 6}, 1820: {"slidesPerView": 7}, 2080: {"slidesPerView": 8}}} centeredSlides={false} speed={3000} autoplay={{
+      <Swiper loop={true} allowTouchMove={false} breakpoints={{
+        520: {"slidesPerView": 2}, 
+        780: {"slidesPerView": 3}, 
+        1040: {"slidesPerView": 4}, 
+        1300: {"slidesPerView": 5}, 
+        1560: {"slidesPerView": 6}, 
+        1820: {"slidesPerView": 7}, 
+        2080: {"slidesPerView": 8}
+      }} centeredSlides={false} speed={3000} autoplay={{
         "delay": 0,
         "disableOnInteraction": false,
         "reverseDirection": true,
