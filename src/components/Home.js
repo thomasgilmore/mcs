@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import McsBanner from '../MCS/Website Collateral/MCS_Banner (1).png'
+import McsBanner from '../MCS/Website Collateral/MCS_Banner_re.png'
 
 export default function Home() {
   return (
