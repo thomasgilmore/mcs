@@ -12,6 +12,7 @@ export default function OurTeam() {
       <div className='rowOurTeam'>
         <div className='teamMemberDiv'>
           <a href="https://twitter.com/GutterChad" target="_blank" rel="noreferrer"><img src={LaserBeamEyes} className='ourTeamImg' alt="Gutter Chad" /></a>
+          <p className="teamMemberText">GutterChad is a founding member and Project Manager of the Moody Creature Society. He is a huge New York Giants fan and can't wait to bring his son to his first game</p>
         </div>
         <div className='teamMemberDiv'>
           <a href="https://twitter.com/yev_creates" target="_blank" rel="noreferrer"><img src={PurpleGlitter} className='ourTeamImg' alt="@yev_creates" /></a>

@@ -4,7 +4,7 @@ import './ourstory.css';
 export default function OurStory() {
   return (
     <div id="ourStory" className='ourStoryDiv'>
-      <h1>Our Story</h1>
+      <h1>The Beginning of Our Story</h1>
     </div>
   )
 }
