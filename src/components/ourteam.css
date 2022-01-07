@@ -13,4 +13,15 @@
 
 .rowOurTeam {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  width: 90%;
+}
+
+.teamMemberDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }

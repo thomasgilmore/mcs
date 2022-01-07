@@ -10,20 +10,22 @@ export default function OurTeam() {
     <div id="ourTeam" className='ourTeamDiv'>
       <h1>Our Team</h1>
       <div className='rowOurTeam'>
-        <div>
-          <img src={LaserBeamEyes} className='ourTeamImg' alt="Gutter Chad" />
+        <div className='teamMemberDiv'>
+          <a href="https://twitter.com/GutterChad" target="_blank" rel="noreferrer"><img src={LaserBeamEyes} className='ourTeamImg' alt="Gutter Chad" /></a>
         </div>
-        <div>
-          <img src={PurpleGlitter} className='ourTeamImg' alt="@yev_creates" />
+        <div className='teamMemberDiv'>
+          <a href="https://twitter.com/yev_creates" target="_blank" rel="noreferrer"><img src={PurpleGlitter} className='ourTeamImg' alt="@yev_creates" /></a>
           <p>Yev is the Designer of the Moody Creature Society. An aesthete and typophile with a systematic approach to...everything.</p>
         </div>
       </div>
       <div className='rowOurTeam'>
-        <div>
-          <img src={GoldKissyHeart} className='ourTeamImg' alt="@ashculco" />
+        <div className='teamMemberDiv'>
+          <a href='https://twitter.com/ashculco' target="_blank" rel="noreferrer"><img src={GoldKissyHeart} className='ourTeamImg' alt="@ashculco" /></a>
+          <p>Ashley is creative manager of the Moody Creature Society. Mama bear. Loves Astrology and all things Frenchie.</p>
         </div>
-        <div>
+        <div className='teamMemberDiv'>
           <img src={PinkBubblegum} className='ourTeamImg' alt="@TacosAndBubbles" />
+          <p>Crystal is the marketing manager of Moody Creature Society. She is a big foodie and will never miss an opportunity to pet a cat.</p>
         </div>
       </div>
       
