@@ -14,14 +14,19 @@
 .rowOurTeam {
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
   width: 90%;
 }
 
 .teamMemberDiv {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+}
+
+.teamMemberText {
+  font-size: 18px;
+  width: 300px;
 }
