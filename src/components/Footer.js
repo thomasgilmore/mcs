@@ -21,6 +21,7 @@ export default function Footer() {
           <ul>
             <li><a href="#ourTeam" className='footerLink'>Our Team</a></li>
             <li><a href="#contact" className='footerLink'>Contact</a></li>
+            <li><a href="#faq" className='footerLink'>FAQ</a></li>
           </ul>
         </div>
       </div>

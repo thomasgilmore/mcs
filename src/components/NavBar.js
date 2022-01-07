@@ -23,6 +23,7 @@ export default function NavBar() {
         <Nav.Link className='navItem' href="#roadmap">Roadmap</Nav.Link>
         <Nav.Link className='navItem' href="#ourTeam">Our Team</Nav.Link>
         <Nav.Link className='navItem' href="#contact">Contact</Nav.Link>
+        <Nav.Link className='navItem' href="#faq">FAQ</Nav.Link>
       </Nav>
     </Navbar.Collapse>
     </Container>
