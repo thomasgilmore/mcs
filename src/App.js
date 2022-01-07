@@ -8,6 +8,7 @@ import OurStory from './components/OurStory';
 import Roadmap from './components/Roadmap';
 import Contact from './components/Contact';
 import OurTeam from './components/OurTeam';
+import FAQSection from './components/FAQ';
 import Footer from './components/Footer';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
        <Roadmap />
        <Contact />
        <OurTeam />
+       <FAQSection />
        <Footer />
     </div>
   );
