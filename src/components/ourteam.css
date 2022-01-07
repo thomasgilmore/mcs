@@ -30,3 +30,9 @@
   font-size: 18px;
   width: 300px;
 }
+
+@media only screen and (max-width: 1300px) {
+  .rowOurTeam {
+    justify-content: center;
+  }
+}
