@@ -1,5 +1,26 @@
 .App {
   text-align: center;
+  background-image: url('./img/MCS_bg_1920.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1, p, li {
+  color: #fff;
+}
+
+.navBar, .footerDiv {
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 500px) {
+  .App {
+    background-image: url('./MCS/Website\ Collateral/Background.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 101vw 101vh;
+  }
 }
 
 .App-logo {
