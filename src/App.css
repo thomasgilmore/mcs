@@ -14,14 +14,14 @@ h1, p, li {
   background-color: #fff;
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
   .App {
     background-image: url('./MCS/Website\ Collateral/Background.PNG');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 101vw 101vh;
   }
-}
+} */
 
 .App-logo {
   height: 40vmin;
