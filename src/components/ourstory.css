@@ -1,6 +1,13 @@
 .ourStoryDiv {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 10px 0;
+}
+
+.ourStoryText {
+  width: 90%;
+  font-size: 18px;
+  text-align: justify;
 }
