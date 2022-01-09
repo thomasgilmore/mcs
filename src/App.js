@@ -18,9 +18,9 @@ function App() {
        <Home />
        <OurStory />
        <Roadmap />
-       <Contact />
        <OurTeam />
        <FAQSection />
+       <Contact />
        <Footer />
     </div>
   );
