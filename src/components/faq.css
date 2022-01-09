@@ -19,3 +19,9 @@
 .faqList > p {
   margin: 10px;
 }
+
+.faqButtons {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
