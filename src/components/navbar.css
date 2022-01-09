@@ -7,12 +7,16 @@
   margin: 15px;
 }
 
+#navBarItem {
+  color: #fff;
+}
+
 .navItem {
-  color: #000;
+  color: #fff;
 }
 
 .navItem:hover {
-  color: #000;
+  color: #fff;
 }
 
 .line {
