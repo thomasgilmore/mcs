@@ -1,11 +1,12 @@
 .navLogo {
   height: 76px;
+  margin-top: 20px;
 }
 
-.navMcsTitle {
+/* .navMcsTitle {
   width: 150px;
   margin: 15px;
-}
+} */
 
 #navBarItem {
   color: #fff;

@@ -3,8 +3,8 @@ import './navbar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import Logo from '../MCS/Website Collateral/MCS_Icon_Bcircle.png';
-import McsTitle from '../MCS/Website Collateral/MCS_Logo_B.png';
+import Logo from '../img/MCS_Logo_Icon__W_1.png';
+// import McsTitle from '../MCS/Website Collateral/MCS_Logo_B.png';
 
 export default function NavBar() {
   return (
@@ -13,7 +13,6 @@ export default function NavBar() {
     <Container>
     <Navbar.Brand href="#home">
       <img src={Logo} className='navLogo' alt="Logo" />
-      <img src={McsTitle} className='navMcsTitle' alt="MCS" />
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">

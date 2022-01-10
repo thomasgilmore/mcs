@@ -10,10 +10,14 @@
   margin: 10px;
 }
 
-.footerImg,
-.footerText {
+.footerImgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerImg {
   height: 68px; 
-  margin: 0 5px;
 }
 
 .linksFooterDiv {

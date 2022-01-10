@@ -1,14 +1,13 @@
 import React from 'react'
 import "./footer.css"
-import LogoText from '../MCS/Website Collateral/MCS_Logo_B.png';
-import LogoImg from '../MCS/Website Collateral/MCS_Icon_Bcircle.png';
+// import LogoText from '../MCS/Website Collateral/MCS_Logo_B.png';
+import LogoImg from '../img/MCS_Logo_Icon__W_1.png';
 
 export default function Footer() {
   return (
     <div className='footerDiv'>
-      <div>
+      <div className='footerImgDiv'>
         <img src={LogoImg} alt="Logo" className='footerImg' />
-        <img src={LogoText} alt='Logo' className='footerText' />
       </div>
       <div>
         <h4>Links</h4>
