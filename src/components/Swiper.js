@@ -46,7 +46,7 @@ export default function SwiperJS () {
       2080: {"slidesPerView": 8}
     }} centeredSlides={false} speed={3000} autoplay={{
       "delay": 0,
-      "disableOnInteraction": false
+      "disableOnInteraction": false,
     }} navigation={false} className="mySwiper">
       <SwiperSlide><img src={mcs_character_1} className='bucketpolo' alt="Bucket Polo" /></SwiperSlide>
       <SwiperSlide><img src={mcs_character_2} className='cowboy' alt="Cowboy" /></SwiperSlide>

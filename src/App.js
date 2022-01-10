@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 // import OriginalCreatures from './components/OriginalCreatures';
-// import SwiperJS from './components/Swiper';
+import SwiperJS from './components/Swiper';
 import OurStory from './components/OurStory';
 import Roadmap from './components/Roadmap';
 import Contact from './components/Contact';
@@ -17,6 +17,7 @@ function App() {
        <NavBar />
        <Home />
        <OurStory />
+       <SwiperJS />
        <Roadmap />
        <OurTeam />
        <FAQSection />

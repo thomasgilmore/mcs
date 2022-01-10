@@ -4,4 +4,11 @@
 .monroe, .tiger {
   height: 260px;
   margin: 0px;
+  padding: 0px;
+}
+
+.mySwiper {
+  -webkit-transition-timing-function:linear!important; 
+  -o-transition-timing-function:linear!important;
+  transition-timing-function:linear!important; 
 }
