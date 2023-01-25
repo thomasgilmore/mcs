@@ -19,7 +19,7 @@ export default function NavBar() {
       <Nav>
         <Nav.Link className='navItem' id="navBarItem" href="#home">MCS</Nav.Link>
         <Nav.Link className='navItem' id="navBarItem" href="#ourStory">Our Story</Nav.Link>
-        <Nav.Link className='navItem' id="navBarItem" href="#roadmap">Roadmap</Nav.Link>
+        {/* <Nav.Link className='navItem' id="navBarItem" href="#roadmap">Roadmap</Nav.Link> */}
         <Nav.Link className='navItem' id="navBarItem" href="#ourTeam">Our Team</Nav.Link>
         <Nav.Link className='navItem' id="navBarItem" href="#contact">Contact</Nav.Link>
         <Nav.Link className='navItem' id="navBarItem" href="#faq">FAQ</Nav.Link>

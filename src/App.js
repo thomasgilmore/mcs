@@ -5,7 +5,7 @@ import Home from './components/Home';
 // import OriginalCreatures from './components/OriginalCreatures';
 import SwiperJS from './components/Swiper';
 import OurStory from './components/OurStory';
-import Roadmap from './components/Roadmap';
+// import Roadmap from './components/Roadmap';
 import Contact from './components/Contact';
 import OurTeam from './components/OurTeam';
 import FAQSection from './components/FAQ';
@@ -18,7 +18,6 @@ function App() {
        <Home />
        <OurStory />
        <SwiperJS />
-       <Roadmap />
        <OurTeam />
        <FAQSection />
        <Contact />
